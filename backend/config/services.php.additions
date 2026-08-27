@@ -1,0 +1,7 @@
+<?php
+
+// Add this array entry inside config/services.php (the array returned by the file):
+
+'openai' => [
+    'key' => env('OPENAI_API_KEY'),
+],
